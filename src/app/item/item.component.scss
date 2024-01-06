@@ -1,0 +1,149 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5px 0;
+  text-align: left;
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+label {
+  width: 0;
+  padding-top: 2px;
+  white-space: nowrap;
+}
+
+.done {
+  color: #757575;
+  text-decoration: line-through;
+}
+
+.edit-block {
+  width: 100%;
+}
+
+.btn-wrapper {
+  margin-top: -.3rem;
+  z-index: 10;
+  background-color: #f5f5f5;
+  box-shadow: -6px 0 6px 3px #f5f5f5;
+}
+
+.btn-edit {
+  margin-right: 5px;
+  padding-bottom: 6px;
+}
+
+.btn-edit:hover {
+  border-color: #1d64bb;
+}
+
+.btn-edit:active {
+  box-shadow: 0 0 2px 0 #1d64bb;
+}
+
+.btn-remove {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.65rem;
+  color: #DD0031;
+}
+
+.btn-remove:hover {
+  border-color: #C3002F;
+}
+
+.btn-remove:active {
+  color: #fff;
+  background-color: #C3002F;
+  box-shadow: 0 0 2px 0 #C3002F;
+}
+
+.btn {
+  flex-basis: 49.4%;
+}
+
+.input-edit {
+  margin: .65rem 0;
+  padding: .3rem .7rem;
+}
+
+.btn-save {
+  background-color: #2774ca;
+  border-color: #2774ca;
+  color: #fff;
+}
+
+.btn-save:hover {
+  background-color: #1d64bb;
+  border-color: #1d64bb;
+  text-shadow: 0 0 5px #fff;
+}
+
+.btn-save:active {
+  box-shadow: 0 0 2px 0 #1d64bb;
+}
+
+.btn-cancel {
+  background-color: #DD0031;
+  border-color: #DD0031;
+  color: #fff;
+}
+
+.btn-cancel:hover {
+  background-color: #C3002F;
+  border-color: #C3002F;
+  text-shadow: 0 0 5px #fff;
+}
+
+.btn-cancel:active {
+  box-shadow: 0 0 2px 0 #C3002F;
+}
+
+/* Checkboxes based on https://css-tricks.com/the-checkbox-hack/#custom-designed-radio-buttons-and-checkboxes */
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 2.3rem;
+  cursor: pointer;
+}
+/* Сheckbox */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -.3rem;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #ccc;
+  background: #fff;
+}
+/* Сhecked mark */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: "\2713\0020";
+  position: absolute;
+  top: -.1rem;
+  left: .3rem;
+  font-size: 2.2rem;
+  line-height: .8;
+  color: #2774ca;
+  transition: .1s;
+  font-family: "Lucida Sans Unicode", "Arial Unicode MS", Arial;
+}
+/* Checked mark changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}

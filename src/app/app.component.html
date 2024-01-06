@@ -1,0 +1,41 @@
+<div class="container">
+  <header class="header">
+    <img class="angular-logo" src="../assets/angular-logo.svg" alt="Angular logo">
+    <h1>{{ title }}</h1>
+    <img class="front42-logo" src="../assets/front42-logo.jpg" alt="@front42 logo">
+  </header>
+
+  <h2 class="slogan">{{ slogan }}</h2>
+
+  <input
+    id="addItemInput"
+    type="text"
+    placeholder="Add an item"
+    (input)="addButton.style.pointerEvents = 'auto'"
+    (keydown.enter)="addItem(newItem.value); newItem.value = ''; addButton.style.pointerEvents = 'none'"
+    #newItem
+  >
+
+  <button class="btn-add" (click)="addItem(newItem.value); newItem.value = ''; addButton.style.pointerEvents = 'none'" #addButton>+</button>
+
+  <div class="btn-wrapper">
+    <button class="btn btn-menu" [class.active]="filter == 'all'" (click)="filter = 'all'">All</button>
+    <button class="btn btn-menu" [class.active]="filter == 'active'" (click)="filter = 'active'">Active</button>
+    <button class="btn btn-menu" [class.active]="filter == 'done'" (click)="filter = 'done'">Done</button>
+  </div>
+
+  <h2 class="items-length" *ngIf="items.length">{{ items.length }} <span *ngIf="items.length === 1; else elseBlock">item</span> in the list
+    <ng-template #elseBlock>items</ng-template>
+  </h2>
+
+  <ul>
+    <li *ngFor="let item of items">
+      <app-item (checkboxChange)="checkItems()" (remove)="remove(item)" [item]="item"></app-item>
+    </li>
+  </ul>
+
+  <footer>
+    <p>&copy;&#8239;2024 All Rights Reserved.</p>
+    <em>&#64;front42</em>
+  </footer>
+</div>
