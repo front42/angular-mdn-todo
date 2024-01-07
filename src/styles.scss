@@ -46,10 +46,15 @@ input {
   cursor: pointer;
 }
 
-.btn:active {
-  border-color: #1d64bb;
-  background-color: #1d64bb;
+.btn:hover {
   color: #fff;
+  border-color: #1d64bb;
+}
+
+.btn:active {
+  color: #fff;
+  background-color: #1d64bb;
+  border-color: #1d64bb;
   text-shadow: 0 0 5px #fff;
 }
 

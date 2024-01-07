@@ -51,7 +51,12 @@
 }
 
 .btn-menu:hover {
+  color: #4d4d4d;
   border-color: #1d64bb;
+}
+
+.btn-menu:active {
+  color: #fff;
 }
 
 .active {

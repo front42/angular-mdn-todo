@@ -32,19 +32,21 @@ label {
 
 .btn-edit {
   margin-right: 5px;
-  padding-bottom: 6px;
+  line-height: 0;
+  color: #2774ca;
 }
 
 .btn-edit:hover {
-  border-color: #1d64bb;
+  color: #1d64bb;
 }
 
 .btn-edit:active {
+  color: #fff;
   box-shadow: 0 0 2px 0 #1d64bb;
 }
 
 .btn-remove {
-  font-family: Arial, Helvetica, sans-serif;
+  line-height: 0;
   font-size: 1.65rem;
   color: #DD0031;
 }
