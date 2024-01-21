@@ -9,6 +9,7 @@
 
   <div class="btn-wrapper" *ngIf="!editable">
     <button class="btn btn-edit" (click)="editable = !editable">&#9997;</button>
+    <!-- <button class="btn btn-edit" (click)="editable = !editable">&#9998;</button> -->
     <button class="btn btn-remove" (click)="remove.emit()">&times;</button>
   </div>
 

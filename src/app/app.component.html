@@ -24,7 +24,7 @@
     <button class="btn btn-menu" [class.active]="filter == 'done'" (click)="filter = 'done'">Done</button>
   </div>
 
-  <h2 class="items-length" *ngIf="items.length">{{ items.length }} <span *ngIf="items.length === 1; else elseBlock">item</span> in the list
+  <h2 class="items-length" *ngIf="items.length">{{ items.length }} <span *ngIf="items.length === 1; else elseBlock">item</span>
     <ng-template #elseBlock>items</ng-template>
   </h2>
 

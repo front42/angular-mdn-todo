@@ -28,6 +28,9 @@ input {
   font-size: 1rem;
   color: #4d4d4d;
   border: 2px solid #2774ca;
+  appearance: none;
+  border-radius: 0;
+  caret-color: #4d4d4d;
 }
 
 .btn-wrapper {
@@ -46,9 +49,17 @@ input {
   cursor: pointer;
 }
 
-.btn:hover {
-  color: #fff;
-  border-color: #1d64bb;
+@media (hover: hover) {
+  .btn:hover {
+    color: #fff;
+    border-color: #1d64bb;
+  }
+
+  .btn-add:hover {
+    background-color: #1d64bb;
+    border-color: #1d64bb;
+    text-shadow: 0 0 5px #fff;
+  }
 }
 
 .btn:active {
@@ -68,12 +79,6 @@ input {
   border: 2px solid #2774ca;
   cursor: pointer;
   pointer-events: none;
-}
-
-.btn-add:hover {
-  background-color: #1d64bb;
-  border-color: #1d64bb;
-  text-shadow: 0 0 5px #fff;
 }
 
 .btn-add:active {

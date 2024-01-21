@@ -1,7 +1,7 @@
 .container {
-  margin: 2rem auto 2rem;
+  margin: 1rem auto;
   max-width: 500px;
-  width: 91.5%;
+  width: 94.8%;
   padding: .7rem 1rem .2rem;
   background-color: #f5f5f5;
   text-align: center;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 500px) {
   .container {
-    margin: 1rem auto;
+    margin: .7rem auto;
   }
 }
 
@@ -50,9 +50,11 @@
   flex-basis: 32.5%;
 }
 
-.btn-menu:hover {
-  color: #4d4d4d;
-  border-color: #1d64bb;
+@media (hover: hover) {
+  .btn-menu:hover {
+    color: #4d4d4d;
+    border-color: #1d64bb;
+  }
 }
 
 .btn-menu:active {
