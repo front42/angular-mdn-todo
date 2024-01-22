@@ -1,0 +1,17 @@
+{
+  "name": "Angular MDN ToDo",
+  "short_name": "Angular MDN ToDo",
+  "theme_color": "#2774ca",
+  "background_color": "#2774ca",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}
