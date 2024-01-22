@@ -1,0 +1,75 @@
+{
+  "configVersion": 1,
+  "timestamp": 1705952221011,
+  "index": "https://front42.github.io/angular-mdn-todo/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://front42.github.io/angular-mdn-todo/favicon.png",
+        "https://front42.github.io/angular-mdn-todo/index.html",
+        "https://front42.github.io/angular-mdn-todo/main.6949182e73ba5a71.js",
+        "https://front42.github.io/angular-mdn-todo/manifest.webmanifest",
+        "https://front42.github.io/angular-mdn-todo/polyfills.595a19910c661544.js",
+        "https://front42.github.io/angular-mdn-todo/runtime.e92d7c556802cf71.js",
+        "https://front42.github.io/angular-mdn-todo/styles.a554ef19bfe44cf8.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://front42.github.io/angular-mdn-todo/angular-background.b1123fe44a93cf09.png",
+        "https://front42.github.io/angular-mdn-todo/assets/angular-background.png",
+        "https://front42.github.io/angular-mdn-todo/assets/angular-logo.svg",
+        "https://front42.github.io/angular-mdn-todo/assets/front42-logo.jpg",
+        "https://front42.github.io/angular-mdn-todo/assets/icons/icon-192x192.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://front42.github.io/angular-mdn-todo/angular-background.b1123fe44a93cf09.png": "9cca0601d01a2a98cdad271bddac725791026b0b",
+    "https://front42.github.io/angular-mdn-todo/assets/angular-background.png": "9cca0601d01a2a98cdad271bddac725791026b0b",
+    "https://front42.github.io/angular-mdn-todo/assets/angular-logo.svg": "0b3394341548880427c38ed78beb990863a4e8cb",
+    "https://front42.github.io/angular-mdn-todo/assets/front42-logo.jpg": "d4f9bbe156e6211a29a1c29a94c3429ce4609476",
+    "https://front42.github.io/angular-mdn-todo/assets/icons/icon-192x192.png": "ac32da77bb6cb8736d80c3257c98b96d073cbbba",
+    "https://front42.github.io/angular-mdn-todo/favicon.png": "58778812187793ba12e93def4a94f145e8098d80",
+    "https://front42.github.io/angular-mdn-todo/index.html": "77dc781b8f505f7c242d03f8fb61505d8b893a0d",
+    "https://front42.github.io/angular-mdn-todo/main.6949182e73ba5a71.js": "5c0f420ede140f655bd946bd0ff557dfae533d41",
+    "https://front42.github.io/angular-mdn-todo/manifest.webmanifest": "e40734d8f0eb3a82fce09fc234d06f6d5798581b",
+    "https://front42.github.io/angular-mdn-todo/polyfills.595a19910c661544.js": "8ddc49718d4da5f1c766313522cf017d2d0b8c53",
+    "https://front42.github.io/angular-mdn-todo/runtime.e92d7c556802cf71.js": "71a27a4f1330ae0c93f61f0d6de004c6f6484e45",
+    "https://front42.github.io/angular-mdn-todo/styles.a554ef19bfe44cf8.css": "9b09b97a90122a0a4551e6b3fccbe10c4598d108"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
