@@ -1,6 +1,6 @@
 {
-  "name": "Angular MDN ToDo",
-  "short_name": "Angular MDN ToDo",
+  "name": "ToDo",
+  "short_name": "ToDo",
   "theme_color": "#2774ca",
   "background_color": "#2774ca",
   "display": "standalone",
