@@ -1,10 +1,10 @@
-# <img src="./src/favicon.png" alt="Angular MDN ToDo" height="17"/>&#8239;angular-mdn-todo
-Thanks for your attention to this simple project -  
+# <img src="./src/favicon.png" alt="Angular MDN ToDo" width="17" height="17"/>&#8239;angular-mdn-todo
+Thanks for your attention to this project -  
 todo-list based on MDN's [Angular framework review](https://developer.mozilla.org/ru/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started) with code examples  
 that you can use in your own application. Just like this:  
 ***https://front42.github.io/angular-mdn-todo***  
 
-<img src="https://rolling-scopes-school.github.io/front42-JSFE2021Q1/presentation/z/front42.jpg" alt="logo" height="17"/>  
+<img src="https://rolling-scopes-school.github.io/front42-JSFE2021Q1/presentation/z/front42.jpg" alt="logo" width="107" height="40"/>  
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.10.  
 ## Development server
